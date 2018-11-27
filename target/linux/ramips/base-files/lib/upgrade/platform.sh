@@ -274,7 +274,8 @@ platform_check_image() {
 	tplink,tl-wr902ac-v3|\
 	tl-wr840n-v4|\
 	tl-wr840n-v5|\
-	tl-wr841n-v13)
+	tl-wr841n-v13|\
+	tl-wr841n-v14)
 		[ "$magic" != "03000000" ] && {
 			echo "Invalid image type."
 			return 1
